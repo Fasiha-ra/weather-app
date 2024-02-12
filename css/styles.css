@@ -1,0 +1,217 @@
+.weather-holder .weather-wrap {
+  display: flex;
+  gap: 35px;
+  padding: 30px;
+}
+.weather-holder .weather-wrap .input-holder {
+  width: 550px;
+}
+.weather-holder .weather-wrap .input-holder input {
+  width: 100%;
+  height: 45px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 15px;
+  font-size: 20px;
+  margin: 10px 0px 15px 0px;
+}
+.weather-holder .weather-wrap .input-holder .separator {
+  height: 1px;
+  width: 100%;
+  margin: 25px 0;
+  background: #bbb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weather-holder .weather-wrap .input-holder .separator::before {
+  content: "or";
+  padding: 0 15px;
+  font-size: 18px;
+  background: #E3F2FD;
+  color: #6C757D;
+  margin-top: -4px;
+}
+.weather-holder .weather-wrap .weather-data {
+  width: 100%;
+}
+.weather-holder .weather-wrap .weather-data .current-weather {
+  color: #fff;
+  background: #5372F0;
+  border-radius: 5px;
+  padding: 30px 70px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.weather-holder .weather-wrap .weather-data .current-weather h2 {
+  margin-bottom: 20px;
+}
+.weather-holder .weather-wrap .weather-data .current-weather .text-content {
+  margin-top: 12px;
+}
+.weather-holder .weather-wrap .weather-data .current-weather .icon {
+  margin-top: -18px;
+}
+.weather-holder .weather-wrap .weather-data .days-forecast {
+  margin: 20px 0;
+}
+.weather-holder .weather-wrap .weather-data .days-forecast h2 {
+  margin: 20px 0;
+}
+.weather-holder .weather-wrap .weather-data .days-forecast .weather-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.weather-holder .weather-wrap .weather-data .days-forecast .weather-cards .card {
+  padding: 18px 16px;
+  background: #6C757D;
+  border-radius: 5px;
+  width: 180px;
+  color: #fff;
+}
+.weather-holder .weather-wrap .weather-data .days-forecast .weather-cards .card h4 {
+  font-size: 14px;
+}
+.weather-holder .weather-wrap .weather-data .days-forecast .weather-cards .card .img-icon {
+  text-align: center;
+  max-width: 70px;
+  margin: -5px 0 -15px 0;
+}
+
+.img-icon {
+  max-width: 100px;
+  height: 100px;
+}
+
+header {
+  background-color: #1a7bb7;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px/20px "Inter", sans-serif;
+  color: #231f20;
+  margin: 0;
+  padding: 0;
+  background: #E2F2FD;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin: 0 0 10px;
+  font-weight: 700;
+}
+
+h1,
+.text-wrap {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+textarea {
+  resize: vertical;
+  vertical-align: top;
+}
+
+button,
+input[type=button],
+input[type=reset],
+input[type=file],
+input[type=submit] {
+  cursor: pointer;
+}
+
+form,
+fieldset {
+  margin: 0;
+  padding: 0;
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 12px 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 2px solid transparent;
+  outline: none;
+  box-shadow: none;
+  min-width: 120px;
+  width: 100%;
+  color: #fff;
+}
+.btn.primary {
+  background-color: rgb(24, 88, 200);
+}
+.btn.secondary {
+  background-color: #6C757D;
+}/*# sourceMappingURL=styles.css.map */

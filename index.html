@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Weather App</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="container">
+        <h1 class="text-wrap">Weather Dashboard</h1>
+      </div>
+    </header>
+    <section class="weather-holder">
+      <div class="container">
+        <div class="weather-wrap">
+          <div class="input-holder">
+            <h3>Enter City Name Here</h3>
+            <input type="text" class="input-text" placeholder="Enter city Name">
+            <button class="btn primary searchbtn">Search</button>
+            <div class="separator"></div>
+            <button class="btn secondary location_btn">Use current location</button>
+          </div>
+          <div class="weather-data">
+            <div class="current-weather">
+              <div class="details">
+                <h2>______(__________)</h2>
+                <h4 class="text-contetnt">Temperature: _____°C</h4>
+                <h4 class="text-contetnt">Wind: ____ M/S</h4>
+                <h4 class="text-contetnt">Humidity: __%</h4>
+              </div>
+              <!-- <div class="icon">
+                <div class="img-icon">
+                  <img src="assets/rainy.webp" alt="Rain">
+                </div>
+                <h4>Moderate Rain</h4>
+              </div> -->
+            </div>
+            <div class="days-forecast">
+              <h2>5 Day Forecast</h2>
+              <ul class="weather-cards">
+                <li class="card">
+                  <h3>( __________ )</h3>
+                  <h4 class="text-contetnt">Temp: _____°C</h4>
+                  <h4 class="text-contetnt">Wind: ____ M/S</h4>
+                  <h4 class="text-contetnt">Humidity: __%</h4>
+                </li>
+                <!-- <li class="card">
+                <h3>( __________ )</h3>
+                <h4 class="text-contetnt">Temp: _____°C</h4>
+                <h4 class="text-contetnt">Wind: ____ M/S</h4>
+                <h4 class="text-contetnt">Humidity: __%</h4>
+              </li> -->
+                <li class="card">
+                  <h3>( __________ )</h3>
+                  <h4 class="text-contetnt">Temp: _____°C</h4>
+                  <h4 class="text-contetnt">Wind: ____ M/S</h4>
+                  <h4 class="text-contetnt">Humidity: __%</h4>
+                </li>
+                <li class="card">
+                  <h3>( __________ )</h3>
+                  <h4 class="text-contetnt">Temp: _____°C</h4>
+                  <h4 class="text-contetnt">Wind: ____ M/S</h4>
+                  <h4 class="text-contetnt">Humidity: __%</h4>
+                </li>
+                <li class="card">
+                  <h3>( __________ )</h3>
+                  <h4 class="text-contetnt">Temp: _____°C</h4>
+                  <h4 class="text-contetnt">Wind: ____ M/S</h4>
+                  <h4 class="text-contetnt">Humidity: __%</h4>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
